@@ -1,0 +1,515 @@
+.progress{
+	height: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress .bar{
+	background-color: #5cb85c;
+	float: left;
+	width: 0;
+	height: 100%;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #428bca;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+	-webkit-transition: width .6s ease;
+	-o-transition: width .6s ease;
+	transition: width .6s ease;
+}
+
+#dashboard{
+  line-height: 1.7;
+}
+/* line 58, pages/_admin-dashboard.scss */
+#dashboard .section {
+  margin: 20px;
+}
+/* line 62, pages/_admin-dashboard.scss */
+#dashboard #slideshow-section {
+  margin-top: 20px;
+  position: relative;
+}
+/* line 65, pages/_admin-dashboard.scss */
+#dashboard #slideshow-section * {
+  width: 100% !important;
+}
+
+/* line 1, partials/_admin-header.scss */
+#header {
+  height: 98px;
+  position: relative;
+  z-index: 2;
+}
+/* line 6, partials/_admin-header.scss */
+#header #branding {
+  width: 250px;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.5);
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #4897ff;
+  height: 100%;
+}
+/* line 14, partials/_admin-header.scss */
+#header #branding .shadow {
+  background: url("../img/logo-shadow.png") no-repeat;
+  width: 250px;
+  height: 17px;
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+}
+/* line 22, partials/_admin-header.scss */
+#header #branding img#site-logo {
+  max-width: 75px;
+}
+/* line 26, partials/_admin-header.scss */
+#header #headings {
+  height: 98px;
+  display: block;
+  text-align: center;
+}
+/* line 30, partials/_admin-header.scss */
+#header #headings #site-title {
+  width: 400px;
+  margin-top: 30px;
+}
+/* line 34, partials/_admin-header.scss */
+#header #headings #sub-title {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* line 40, partials/_admin-header.scss */
+#header .pull-right {
+  height: 100%;
+  color: #fff;
+  font-size: 14px;
+  width: 400px;
+}
+/* line 46, partials/_admin-header.scss */
+#header .pull-right .slogan {
+  font-size: 30px;
+  margin-right: 45px;
+}
+/* line 49, partials/_admin-header.scss */
+#header .pull-right .slogan i.fa {
+  font-size: 12px;
+  position: relative;
+  top: -15px;
+}
+/* line 55, partials/_admin-header.scss */
+#header .pull-right #avatar {
+  display: inline-block;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 59px;
+  height: 59px;
+  overflow: hidden;
+  margin-right: 25px;
+  transition: all 0.2s linear;
+  border: 1px solid transparent;
+
+}
+/* line 64, partials/_admin-header.scss */
+#header .pull-right #avatar:hover {
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.6);
+}
+/* line 67, partials/_admin-header.scss */
+#header .pull-right #avatar img {
+  width: 100%;
+  height: 100%;
+}
+/* line 72, partials/_admin-header.scss */
+#header .pull-right #btn-logout {
+  width: 60px;
+  border-left: 1px solid #ac47b2;
+  background: #f70042;
+  height: 100%;
+  margin-left: 23px;
+  font-size: 35px;
+  transition: all 0.2s linear;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 0;
+}
+/* line 83, partials/_admin-header.scss */
+#header .pull-right #btn-logout:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+header{background-color: maroon;margin: 0;}
+header a{color: #fff;}
+
+/*pages*/
+.related-image {
+  float: left;
+  margin-right: 10px;
+}
+
+/*user-types*/
+body.Ultimate header{background: rgba(255, 4, 4, 0.6);}
+body.Ultimate #sidebar .extension{background-color: #FE6767;}
+body.Ultimate #sidebar a:hover{background-color: #F79F9F;}
+
+body.Premier header{background-color: rgba(5, 45, 203, 0.6);}
+body.Premier .sidebar a:hover{background-color: #337ab7;}
+
+body.Basic header{background: rgba(110, 165, 36, 0.6);}
+body.Basic #sidebar .extension{background-color: #497F4C;}
+body.Basic #sidebar a:hover{background-color: #A7C87A;}
+#497F4C
+.alert-warning-red{
+  color:#ffffff;
+  background-color:#bd1b1b;
+  border-color:#faebcc
+}
+
+/* line 19, assets/_variables.scss */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 20, assets/_variables.scss */
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+/* line 1, partials/_admin-sidebar.scss */
+#sidebar {
+  width: 250px;
+  float: left;
+  background-color: #13478b;
+  position: relative;
+  padding-bottom: 20px;
+  position: absolute;
+  left:0;
+}
+/* line 10, partials/_admin-sidebar.scss */
+#sidebar .extension {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #13478b;
+  z-index: 1;
+}
+/* line 19, partials/_admin-sidebar.scss */
+#sidebar ul {
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+/* line 24, partials/_admin-sidebar.scss */
+#sidebar li {
+  list-style: none;
+  padding: 0;
+}
+/* line 27, partials/_admin-sidebar.scss */
+#sidebar li .badge {
+  position: absolute;
+  right: 50px;
+  background: orange;
+}
+/* line 32, partials/_admin-sidebar.scss */
+#sidebar li a {
+  position: relative;
+  padding: 15px 20px;
+  display: block;
+  transition: all 0.2s linear;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: #88c7ff;
+  font-size: 13px;
+}
+/* line 41, partials/_admin-sidebar.scss */
+#sidebar li a:hover {
+  background-color: #1a56a5;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 46, partials/_admin-sidebar.scss */
+#sidebar li a .fa {
+  width: 30px;
+  text-align: center;
+  font-size: 21px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+/* line 53, partials/_admin-sidebar.scss */
+#sidebar li a.active {
+  background: #fff;
+  color: #333;
+}
+/* line 59, partials/_admin-sidebar.scss */
+#sidebar .admin-page {
+  background: red;
+  margin-bottom: 10px;
+  color: #fff !important;
+  letter-spacing: 2px;
+  font-size: 17px !important;
+}
+
+/* line 2, _admin-scheme.scss */
+body.acctype-1 #sidebar {
+  background-color: #6ea524;
+}
+/* line 4, _admin-scheme.scss */
+body.acctype-1 #sidebar .extension {
+  background-color: #6ea524;
+}
+/* line 7, _admin-scheme.scss */
+body.acctype-1 #sidebar a {
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+}
+/* line 10, _admin-scheme.scss */
+body.acctype-1 #sidebar a:hover {
+  background-color: #5c960d;
+}
+/* line 15, _admin-scheme.scss */
+body.acctype-1 .btn-primary {
+  background-color: #6ea524;
+  border-color: #5f9b0f;
+}
+
+/* line 26, _admin-scheme.scss */
+body.acctype-3 #sidebar {
+  background-color: #fff;
+}
+/* line 28, _admin-scheme.scss */
+body.acctype-3 #sidebar .extension {
+  background-color: #fff;
+}
+/* line 31, _admin-scheme.scss */
+body.acctype-3 #sidebar a {
+  color: #333;
+  font-size: 14px;
+}
+/* line 34, _admin-scheme.scss */
+body.acctype-3 #sidebar a:hover {
+  background-color: #999;
+  color: #fff;
+}
+/* line 40, _admin-scheme.scss */
+body.acctype-3 .btn-primary {
+  background-color: #6ea524;
+  border-color: #5f9b0f;
+}
+
+/* line 46, _admin-scheme.scss */
+body.acctype-4 #sidebar {
+  background-color: #e3b60d;
+}
+/* line 48, _admin-scheme.scss */
+body.acctype-4 #sidebar .extension {
+  background-color: #e3b60d;
+}
+/* line 51, _admin-scheme.scss */
+body.acctype-4 #sidebar a {
+  color: #333;
+}
+/* line 53, _admin-scheme.scss */
+body.acctype-4 #sidebar a:hover {
+  background-color: #fff;
+}
+/* line 58, _admin-scheme.scss */
+body.acctype-4 a {
+  color: #333;
+}
+/* line 62, _admin-scheme.scss */
+body.acctype-4 .user-avatar a {
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+/* line 68, _admin-scheme.scss */
+body.acctype-4 .btn-primary {
+  background-color: #e3b60d;
+  border-color: #e3b60d;
+}
+/* line 73, _admin-scheme.scss */
+body.acctype-4 #myaccount #main-buttons #btn-payment {
+  background-color: #e3b60d;
+  color: #333;
+}
+
+/* line 77, _admin-scheme.scss */
+body.acctype-5 #sidebar {
+  background-color: #08a0d2;
+}
+/* line 79, _admin-scheme.scss */
+body.acctype-5 #sidebar .extension {
+  background-color: #08a0d2;
+}
+/* line 82, _admin-scheme.scss */
+body.acctype-5 #sidebar a {
+  color: #333;
+  font-size: 14px;
+}
+/* line 85, _admin-scheme.scss */
+body.acctype-5 #sidebar a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 91, _admin-scheme.scss */
+body.acctype-5 .btn-primary {
+  background-color: #08a0d2;
+  border-color: #fff;
+}
+/* line 96, _admin-scheme.scss */
+body.acctype-5 #myaccount #main-buttons #btn-payment {
+  background-color: #e3b60d;
+  color: #333;
+}
+
+/* line 77, _admin-scheme.scss */
+body.acctype-6 #header{
+  background-color:#cd3333;
+}
+body.acctype-6 #header .pull-right #btn-logout{
+  transition:none;
+  border-left: none;
+}
+body.acctype-6 #sidebar {
+  background-color: #afafaf;
+}
+body.acctype-6 #myaccount #payment-cont #steps .step h3{
+  background-color: #941818;
+}
+/* line 79, _admin-scheme.scss */
+body.acctype-6 #sidebar .extension {
+  background-color: #afafaf;
+}
+/* line 82, _admin-scheme.scss */
+body.acctype-6 #sidebar a {
+  color: #333;
+  font-size: 14px;
+}
+/* line 85, _admin-scheme.scss */
+body.acctype-6 #sidebar a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 91, _admin-scheme.scss */
+body.acctype-6 .btn-primary {
+  background-color: #d21010;
+  border-color: #fff;
+}
+/* line 96, _admin-scheme.scss */
+body.acctype-6 #myaccount #main-buttons #btn-payment {
+  background-color: #941818;
+  color: #fff;
+}
+
+@media (max-width: 1040px) {
+  /* line 3, assets/_admin-responsive.scss */
+  #header #branding {
+    width: 200px;
+  }
+  /* line 5, assets/_admin-responsive.scss */
+  #header #branding .shadow {
+    width: 200px;
+    background-position: center;
+  }
+
+  /* line 11, assets/_admin-responsive.scss */
+  #sidebar {
+    width: 200px;
+  }
+  /* line 13, assets/_admin-responsive.scss */
+  #sidebar .extension {
+    width: 200px;
+  }
+  /* line 17, assets/_admin-responsive.scss */
+  #sidebar li a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 21, assets/_admin-responsive.scss */
+  #sidebar li .badge {
+    right: 10px;
+  }
+
+  /* line 26, assets/_admin-responsive.scss */
+  .main {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 940px) {
+  /* line 32, assets/_admin-responsive.scss */
+  #header #branding {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  /* line 38, assets/_admin-responsive.scss */
+  #header {
+    height: 50px;
+  }
+
+  /* line 39, assets/_admin-responsive.scss */
+  #header #headings {
+    display: none;
+  }
+
+  /* line 40, assets/_admin-responsive.scss */
+  #header .pull-right #btn-logout {
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    width: 40px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  /* line 41, assets/_admin-responsive.scss */
+  #header .pull-right {
+    width: auto;
+    margin-right: 5px;
+  }
+
+  /* line 42, assets/_admin-responsive.scss */
+  #header .pull-right #avatar {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* line 43, assets/_admin-responsive.scss */
+  #sidebar, #sidebar .extension {
+    width: 40px;
+  }
+
+  /* line 44, assets/_admin-responsive.scss */
+  #sidebar li span {
+    display: none;
+  }
+
+  /* line 45, assets/_admin-responsive.scss */
+  #sidebar li a .fa {
+    margin: 0;
+    width: 100%;
+  }
+
+  /* line 47, assets/_admin-responsive.scss */
+  .main {
+    margin-left: 40px;
+    margin-top: 0px !important;
+  }
+
+  
